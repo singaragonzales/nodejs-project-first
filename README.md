@@ -1,0 +1,1 @@
+$env:GOOGLE_APPLICATION_CREDENTIALS="D:\SINGARA\PROGRAMACION\notes-calendar-project\backend\nodejs-project-first-firebase-adminsdk-z60ia-0bc28d24ec.json"
