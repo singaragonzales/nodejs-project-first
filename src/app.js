@@ -1,8 +1,6 @@
 const express = require("express")
 const morgan = require("morgan")
-const exphdb = require("express-handlebars")
 const path = require("path")
-const functions = require("firebase-functions")
 
 const app = express()
 
@@ -21,5 +19,3 @@ app.use(require("./routes/index.js"))
 app.use(express.static(path.join(__dirname, "public")))
 
 module.exports = app
-
-exports.app = functions.https.onRequest(app);
